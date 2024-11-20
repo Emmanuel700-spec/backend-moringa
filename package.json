@@ -1,0 +1,18 @@
+{
+  "name": "json-server-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port $PORT"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "description": "A simple JSON server to serve db.json for deployment.",
+  "keywords": ["json-server", "mock-backend", "api"],
+  "author": "Your Name",
+  "license": "ISC"
+}
